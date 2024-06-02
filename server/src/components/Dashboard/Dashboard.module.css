@@ -1,0 +1,115 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 100px;
+  font-weight: 600;
+}
+
+.headingText {
+  width: 20vw;
+  height: 15vh;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 45px;
+  padding: 30px;
+  text-align: center;
+}
+
+.headingText > span {
+  font-size: 60px;
+}
+
+.quizCreated {
+  color: #ff5d01;
+}
+
+.quesCreated {
+  color: #60b84b;
+}
+
+.totalImpressions {
+  color: #5076ff;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contentContainer > h1 {
+  font-size: 35px;
+  line-height: 50px;
+  color: #474444;
+  font-weight: 600;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70vw;
+  gap: 40px;
+  justify-content: start;
+  font-weight: 600;
+}
+
+.tableRow {
+  flex: 0 0 20%;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tableData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 12vw;
+}
+
+.tableCell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.tableName {
+  font-size: 25px;
+  line-height: 35px;
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableImpressions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #ff5d01;
+}
+
+.createdOn {
+  color: #60b84b;
+}
+
+.icon {
+  font-size: 18px;
+  font-weight: 600;
+}
